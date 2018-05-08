@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin : 0;
+padding : 0;
+border : 0;
+font-size : 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display : block;
+}
+body {
+line-height : 1;
+}
+ul {
+list-style : none;
+}
+blockquote, q {
+quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content : '';
+content : none;
+}
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+@font-face {
+font-family : brush;
+src : url(../fonts/brush.woff) format("woff"), url(../fonts/brush.woff2) format("woff2");
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+display : block;
+}
+body {
+font : 12px/18px Arial, sans-serif;
+}
+.wrapper {
+min-width : 600px;
+max-width : 1480px;
+}
+header {
+background : url(../images/fon.png);
+}
+header h1 {
+height : 250px;
+background-repeat : no-repeat;
+font-family : brush;
+font-size : 600%;
+color : #FF0000;
+text-align : center;
+line-height : 1.5;
+float : left;
+width : 65%;
+}
+header img {
+float : left;
+width : 20%;
+}
+header nav {
+margin-left : 85%;
+width : 10%;
+height : 250px;
+}
+header a {
+background-color: #C0C0C0;
+text-decoration : none;
+font-size : 150%;
+line-height : 2.5;
+color : #FF0000;
+}
+header a:hover {
+font-size : 200%;
+color : #00FF00;
+}
+.zero {
+clear : both;
+}
+.nav ul {
+position : absolute;
+left : 22%;
+}
+.nav a {
+float : left;
+border : #000 solid 1px;
+font-size : 150%;
+line-height : 200%;
+background : linear-gradient(180deg, #FAEBD7, #C0C0C0);
+width : 24.85%;
+text-align : center;
+text-decoration : none;
+}
+.middle a:hover {
+color : #FF0000;
+}
+.middle {
+width : 100%;
+position : relative;
+}
+.left {
+float : left;
+width : 20%;
+font-size : 130%;
+background-color : #F0E68C;
+padding : 1%;
+}
+.price {
+border : #FF6347 inset 2px;
+text-align : center;
+color : #FF0000;
+line-height : 200%;
+}
+.left a {
+background : linear-gradient(180deg, #C0C0C0, #FAEBD7, #C0C0C0);
+border : #708090 solid 1px;
+border-radius : 3px;
+text-decoration : none;
+line-height : 200%;
+font-size : 120%;
+}
+.perehod {
+border-bottom : 1px solid #000;
+}
+.container {
+width : 100%;
+}
+.container h2, h3 {
+text-align : center;
+background-color : #A9A9A9;
+line-height : 200%;
+}
+.content {
+width : 54%;
+position : absolute;
+padding : 1%;
+left : 22%;
+font-size : 130%;
+line-height : 150%;
+float : left;
+background : #B0E0E6;
+height : 1269px;
+}
+.content ol {
+padding-left : 10px;
+line-height : 145%;
+font-family : Times;
+font-size : 110%;
+}
+.map {
+margin-left : 25%;
+}
+.right {
+font-size : 130%;
+float : right;
+width : 20%;
+left : 75%;
+padding : 1%;
+background : #F0E68C;
+height : 1269px;
+}
+.arrow {
+padding-left : 30%;
+}
+footer {
+height : 100px;
+width : 100%;
+background : url(../images/footer.png) repeat;
+}
+footer a {
+font-size : 130%;
+}
+.foot {
+margin-left : 20%;
+}
+.footer {
+float : left;
+margin-left : 10%;
+line-height : 200%;
+}
+.copyright {
+position : fixed;
+bottom : 0;
+right : 0;
+}
