@@ -46,7 +46,7 @@ header h1 {
 height : 250px;
 background-repeat : no-repeat;
 font-family : brush;
-font-size : 600%;
+font-size : 5vw;
 color : #FF0000;
 text-align : center;
 line-height : 1.5;
@@ -76,17 +76,14 @@ color : #00FF00;
 .zero {
 clear : both;
 }
-.nav ul {
-position : absolute;
-left : 22%;
-}
+
 .nav a {
 float : left;
-border : #000 solid 1px;
-font-size : 150%;
+border : #000 solid 0.01vw;
+font-size : 1.3vw;
 line-height : 200%;
 background : linear-gradient(180deg, #FAEBD7, #C0C0C0);
-width : 24.85%;
+width : 24.35vw;
 text-align : center;
 text-decoration : none;
 }
@@ -95,7 +92,8 @@ color : #FF0000;
 }
 .middle {
 width : 100%;
-position : relative;
+height: auto;
+
 }
 .left {
 float : left;
@@ -123,7 +121,9 @@ border-bottom : 1px solid #000;
 }
 .container {
 width : 100%;
+height: auto;
 }
+.container img {max-width: 100%;}
 .container h2, h3 {
 text-align : center;
 background-color : #A9A9A9;
@@ -131,14 +131,14 @@ line-height : 200%;
 }
 .content {
 width : 54%;
-position : absolute;
+
 padding : 1%;
 left : 22%;
 font-size : 130%;
 line-height : 150%;
 float : left;
 background : #B0E0E6;
-height : 1269px;
+
 }
 .content ol {
 padding-left : 10px;
@@ -156,17 +156,18 @@ width : 20%;
 left : 75%;
 padding : 1%;
 background : #F0E68C;
-height : 1269px;
 }
 .arrow {
 padding-left : 30%;
 }
 footer {
+
 height : 100px;
 width : 100%;
 background : url(../images/footer.png) repeat;
 }
 footer a {
+
 font-size : 130%;
 }
 .foot {
