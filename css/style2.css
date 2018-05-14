@@ -76,14 +76,16 @@ color : #00FF00;
 .zero {
 clear : both;
 }
-
+.nav {
+padding-left: 1vw;
+}
 .nav a {
 float : left;
-border : #000 solid 0.01vw;
+border : #000 solid 0.1px;
 font-size : 1.3vw;
 line-height : 200%;
 background : linear-gradient(180deg, #FAEBD7, #C0C0C0);
-width : 24.35vw;
+width : 24vw;
 text-align : center;
 text-decoration : none;
 }
@@ -93,14 +95,14 @@ color : #FF0000;
 .middle {
 width : 100%;
 height: auto;
-
+background: #A9A9A9;
 }
 .left {
-float : left;
 width : 20%;
 font-size : 130%;
 background-color : #F0E68C;
 padding : 1%;
+display: table-cell;
 }
 .price {
 border : #FF6347 inset 2px;
@@ -120,6 +122,7 @@ font-size : 120%;
 border-bottom : 1px solid #000;
 }
 .container {
+display: table;
 width : 100%;
 height: auto;
 }
@@ -131,14 +134,12 @@ line-height : 200%;
 }
 .content {
 width : 54%;
-
-padding : 1%;
-left : 22%;
+display: table-cell;
+vertical-align: top;
+padding: 1% 1%;
 font-size : 130%;
 line-height : 150%;
-float : left;
 background : #B0E0E6;
-
 }
 .content ol {
 padding-left : 10px;
@@ -146,28 +147,30 @@ line-height : 145%;
 font-family : Times;
 font-size : 110%;
 }
+table {margin: 0 auto;}
+table a {
+	padding:1% 1%;
+}
 .map {
 margin-left : 25%;
 }
 .right {
 font-size : 130%;
-float : right;
 width : 20%;
-left : 75%;
-padding : 1%;
+padding: 1% 1%;
 background : #F0E68C;
+display: table-cell;
+vertical-align: top;
 }
 .arrow {
 padding-left : 30%;
 }
 footer {
-
 height : 100px;
 width : 100%;
 background : url(../images/footer.png) repeat;
 }
 footer a {
-
 font-size : 130%;
 }
 .foot {
